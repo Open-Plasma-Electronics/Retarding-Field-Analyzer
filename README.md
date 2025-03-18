@@ -3,18 +3,18 @@ Retarding Field Analyzers (RFA) allow to measure the Ion Energy Distribution, Pl
 
 ### Driving and Measurement Specifications
 | Variable | Range | Resolution | Accuracy | Notes
-| :---   | :---:   | :---:   | :---:   |  :--- |   
-| Retarding Voltage | 	`20 V` to `1000 V`  | `0.1 V` | `± 0.1 V`  | Core parameter for energy analysis |
-| Collector Ion Current | 	`0 μA` to `100 μA`  | `10 nA` |  `± 2% RD`  | Direct measurement of ion current |
-| Derived Plasma Potential | `10 V` to `100 V`  | `0.1 V` | `± 1 V` | Calculated from voltage and current data |
+| :---   | :---:   | :---:   | :---:   |  :--- |
+| Suppressor Voltage | 	0 - 600 V  | 0.1 V | ± 0.1 V  | Repelling of electrons |
+| Retarding Voltage | 	20 - 1000 V  | 0.5 V | ± 0.2 V  | Ion retardation for energy analysis |
+| Collector Ion Current | 	0 - 100 μA  | 10 nA |  ± 2% RD  | Direct measurement of ion current |
 
 ### Features
 | Variable | Value | Notes
 | :---   | :---:   | :--- |
-| Update Rate | `5 Hz` | report of fully swept cycles |
-| Voltage Ramp Rate | `±100 V/μs` | slew rate for retarding voltage |
-| Voltage Noise/Ripple | `≤ 5 mV` peak-to-peak | noise characteristics |
-| Digital Interface | `USB-C` | serial communication |
+| Update Rate | 5 Hz | report of fully swept cycles |
+| Voltage Ramp Rate | ±100 V/μs | slew rate for retarding voltage |
+| Voltage Noise/Ripple | ≤ 5 mV peak-to-peak | noise characteristics |
+| Digital Interface | USB-C | serial communication |
 
 ## Partlist
 |QTY|	DESCRIPTION	|PART NAME|
@@ -25,6 +25,6 @@ Retarding Field Analyzers (RFA) allow to measure the Ion Energy Distribution, Pl
 
 ## Build
 
-- print PCB from `Gerber File`
-- order  and assemble parts from `Partlist`
-- flash MCU code from `PlatformIO Project`
+- print PCB from Gerber File
+- order  and assemble parts from Partlist
+- flash MCU code from PlatformIO Project
